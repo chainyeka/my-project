@@ -1,1 +1,1 @@
-# open ai projet
+# my-project
