@@ -1,11 +1,117 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-  <meta charset="UTF-8">
-  <title>欢迎来到我的网站</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的个人主页</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    nav {
+      background: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    h2 {
+      border-bottom: 2px solid #4a90e2;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eee;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-  <h1>你好，世界！</h1>
-  <p>这是我用 GitHub Pages 部署的第一个网站！</p>
+  <header>
+    <h1>你好，我是张三</h1>
+    <p>一名前端开发者 | 热爱编程与设计</p>
+  </header>
+
+  <nav>
+    <a href="#about">关于我</a>
+    <a href="#skills">技能</a>
+    <a href="#projects">项目</a>
+    <a href="#contact">联系我</a>
+  </nav>
+
+  <section id="about">
+    <h2>关于我</h2>
+    <p>
+      我是一位热爱前端开发的程序员，目前专注于构建用户体验优秀的网站和Web应用。
+      喜欢学习新技术，善于使用 HTML、CSS、JavaScript，以及现代框架如 React 和 Vue。
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>技能</h2>
+    <ul>
+      <li>HTML5 / CSS3 / JavaScript</li>
+      <li>React / Vue / TypeScript</li>
+      <li>Git / GitHub / VS Code</li>
+      <li>Figma / UI 设计基础</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>项目</h2>
+    <ul>
+      <li><strong>个人博客</strong>：使用 Hexo 搭建，支持 Markdown 写作与标签分类。</li>
+      <li><strong>Todo 应用</strong>：使用 Vue 构建，具备任务添加、完成、过滤功能。</li>
+      <li><strong>作品展示页</strong>：纯 HTML/CSS 构建的响应式作品展示页面。</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>联系我</h2>
+    <p>📧 邮箱：zhangsan@example.com</p>
+    <p>🌐 GitHub：<a href="https://github.com/你的用户名" target="_blank">github.com/你的用户名</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 张三. 保留所有权利。
+  </footer>
 </body>
 </html>
